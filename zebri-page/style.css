@@ -1,0 +1,276 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-family: Arial;
+}
+
+nav{
+	width: 100%;
+	height: 40px;
+	background: #000;
+}
+
+nav>ul{
+	margin: 0 auto;
+	padding: 0;
+	height: 40px;
+	width: 1400px;
+	display: -webkit-flex; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav>ul>li{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+nav>ul>li>span{
+	display: inline-block;
+	background-color: #8b95a1;
+	height: 4px;
+	width: 4px;
+	border-radius: 50%;
+	margin: 0 2.3em 4px;
+}
+
+
+.nav_a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: semi-condensed;
+}
+.nav_a:hover{
+	color: #ff6619;
+}
+
+#nav_vk{
+	color: #2fa3e1;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+#nav_fb{
+	color: #4d70b9;
+	margin-right: 15px;
+}
+#nav_inst{
+	color: #e84d3d;
+}
+#nav_vk:hover, #nav_fb:hover, #nav_inst:hover{
+	color: #fff;
+}
+
+
+
+
+
+.inform{
+	margin: 0;
+	padding: 0;
+	height: 160px;
+	background: url(img/bg_header.png);
+}
+.inform>ul{
+	margin: 0 auto;
+	padding: 0;
+	width: 1320px;
+	height: 170px;
+	display: table;
+}
+.inform>ul>li{
+	display: table-cell;
+	vertical-align: middle;
+}
+#li_logo{
+	width: 315px;
+	padding-bottom: 10px;
+}
+#li_tel{
+	padding-bottom: 35px;
+	font-size: 18px;
+	width: 450px;
+}
+#li_zeb{
+	width: 275px;
+}
+#li_zeb_img{
+	background: url(img/mob_tel.png) no-repeat;
+	width: 50px;
+	height: 50px;
+	margin: 0;
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 7px;
+}
+#li_zeb_img:hover{
+	background: url(img/mob_hover.png) no-repeat;
+}
+#zeb{
+	padding-top: 0.3em;
+	float: right;
+}
+.li_a{
+	font-size: 11.5px;
+	color: #ff6619;
+	text-decoration: none;
+	border-bottom: 1px solid #ff6619;
+}
+.li_a:hover{
+	color: #fb7e16;
+}
+.inform>ul>li>span{
+	color: #8b95a1;
+}
+#li_kab{
+	width: 320px;
+	padding-bottom: 15px;
+}
+#li_kab_p1{
+	margin: 0;
+	float: right;
+}
+#li_kab_p2{
+	margin: 0;
+	float: right;
+	font-size: 11.5px;
+	color: #8b95a1;
+	padding: 3px 10px 0 0;
+}
+.sign_in{
+	border-bottom: 1px dotted #ff6619;
+  text-decoration: none;
+  margin: 0 5px 0 0;
+}
+.sign_up{
+	border-bottom: 1px dotted #ff6619;
+  text-decoration: none;
+  margin: 0 0 0 5px;
+}
+
+#li_order{
+	width: 250px;
+	padding-bottom: 30px;
+}
+#li_order_p1{
+	margin: 0;
+	float: right;
+	width: 105px;
+}
+#li_order_p1>span{
+	float: right;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	line-height: 20px;
+	font-size: 11.5px;
+	font-stretch: semi-condensed;
+}
+#li_order_p2{
+	margin: 0;
+	width: 105px;
+	float: right;
+}
+
+.menu{
+	height: 80px;
+}
+.menu>ul{
+	height: 80px;
+	width: 1310px;
+	margin: 0 auto;
+	padding: 0;
+	display: -webkit-flex; 
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.menu>ul>li{
+	display: inline-block;
+	text-align: center;
+	line-height: 1.15em;
+}
+.menu>ul>li>a>p{
+	margin: 0;
+	text-align: center;
+}
+.menu>ul>li>a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 13px;
+	font-stretch: semi-condensed;
+	color: #000;
+}
+.menu>ul>li>a:hover{
+	color: #ff6619;
+}
+
+#li_zakuski:hover{
+	background: url(img/menu/zakuski_hover.png) no-repeat;	
+}
+#li_biznes:hover{
+	background: url(img/menu/biznes_hover.png) no-repeat;	
+	text-align: center;
+}
+#li_sashimi:hover{
+	background: url(img/menu/sashimi_hover.png) no-repeat;	
+}
+#li_rolls:hover{
+	background: url(img/menu/rolls_hover.png) no-repeat;	
+}
+#li_seti:hover{
+	background: url(img/menu/seti_hover.png) no-repeat;	
+}
+#li_salat:hover{
+	background: url(img/menu/salat_hover.png) no-repeat;	
+}
+#li_sup:hover{
+	background: url(img/menu/sup_hover.png) no-repeat;	
+}
+#li_goryach:hover{
+	background: url(img/menu/goryachee_hover.png) no-repeat;	
+}
+#li_napitki:hover{
+	background: url(img/menu/napitki_hover.png) no-repeat;	
+}
+.li_pizza:hover{
+	background: url(img/menu/pizza_hover.png) no-repeat;	
+}
+#li_desert:hover{
+	background: url(img/menu/desert_hover.png) no-repeat;	
+}
+#li_vok:hover{
+	background: url(img/menu/vok_hover.png) no-repeat;	
+}
+#li_detyam:hover{
+	background: url(img/menu/detyam_hover.png) no-repeat;	
+}
+#li_dop:hover{
+	background: url(img/menu/dop_hover.png) no-repeat;	
+}
+	
+
+
+
+
+
+@media screen and (min-width:200px) and (max-width:1324px) {
+nav>ul{	
+	width: 1000px;	
+}
+nav>ul>li>span{
+	margin: 0 0.7em 4px;
+}
+.inform>ul{
+	width: 1000px;
+}
+#li_zeb{
+	display: none;
+}
